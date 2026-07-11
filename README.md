@@ -1,6 +1,6 @@
-# Code: BLACK Official Website Preview
+# Code: BLACK Official Website
 
-Preview rebuild for the official Code: BLACK website. The current Wix site stays live while this version is designed and reviewed.
+Official website for Code: BLACK at the University of Maryland.
 
 ## Run Locally
 
@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-Open `http://127.0.0.1:5174/` if using the running Codex preview server, or the URL printed by Vite.
+Open the URL printed by Vite.
 
 ## Content Sources Used
 
@@ -23,9 +23,6 @@ Open `http://127.0.0.1:5174/` if using the running Codex preview server, or the 
 
 ## Launch Plan
 
-1. Keep Wix live while this preview is reviewed.
-2. Replace placeholder/future event content with approved 2026-2027 content.
-3. Choose final Drive photos and sponsor logos.
-4. Add CMS after the GitHub repo exists.
-5. Deploy to Vercel or Netlify.
-6. Point `codeblackumd.com` to the new deployment after approval.
+1. Replace seasonal event details as dates are confirmed.
+2. Deploy to Vercel or Netlify.
+3. Point `codeblackumd.com` to the production deployment.

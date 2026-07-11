@@ -35,7 +35,7 @@ const eventCards = events
 const leaderCards = leaders
   .map(
     (leader, index) => `
-      <article class="leader-card"${index >= 8 ? " hidden data-extra-leader" : ""}>
+      <article class="leader-card"${index >= 4 ? " hidden data-extra-leader" : ""}>
         <span>${leader.role}</span>
         <h3>${leader.name}</h3>
         <p>${leader.focus}</p>
@@ -191,8 +191,7 @@ app.innerHTML = `
         <p>
           BlackFest is Code: BLACK's end-of-year event and a high-energy moment
           for sponsors, members, alumni, and friends to connect beyond the
-          classroom. The current site uses the finished BlackFest website recap
-          video with raw BlackFest clips available for future edits.
+          classroom.
         </p>
       </div>
     </section>
@@ -224,8 +223,9 @@ app.innerHTML = `
         <p class="eyebrow">Sponsors</p>
         <h2>Partner with a growing UMD tech community.</h2>
         <p>
-          Packages are based on the 2025-2026 sponsorship prospectus and can be
-          tuned before launch.
+          Sponsor packages create direct pathways for companies to host events,
+          support member development, and build long-term relationships with
+          emerging technologists at the University of Maryland.
         </p>
       </div>
       <div class="sponsor-grid">${sponsorCards}</div>

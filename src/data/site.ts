@@ -88,7 +88,7 @@ export const posts: PostItem[] = [
     title: "Engage Program @ Pinterest",
     category: "Career",
     summary:
-      "A recruiting opportunity previously shared with the Code: BLACK community through the Wix blog.",
+      "A recruiting opportunity shared with the Code: BLACK community for students exploring product, design, and engineering careers.",
   },
 ];
 
