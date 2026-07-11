@@ -35,7 +35,7 @@ const eventCards = events
 const leaderCards = leaders
   .map(
     (leader, index) => `
-      <article class="leader-card"${index >= 4 ? " hidden data-extra-leader" : ""}>
+      <article class="leader-card${index >= 4 ? " leader-card--extra" : ""}">
         <span>${leader.role}</span>
         <h3>${leader.name}</h3>
         <p>${leader.focus}</p>
@@ -183,7 +183,9 @@ app.innerHTML = `
 
     <section class="section blackfest">
       <div class="blackfest__media">
-        <video src="/assets/blackfest-website-recap.mov" controls playsinline preload="metadata"></video>
+        <video controls playsinline preload="metadata">
+          <source src="/assets/blackfest-website-recap.mp4" type="video/mp4" />
+        </video>
       </div>
       <div>
         <p class="eyebrow">BlackFest</p>
@@ -213,7 +215,7 @@ app.innerHTML = `
         <img src="/assets/eboard-group.jpg" alt="Code Black executive board" />
         <div>
           <div class="leader-grid">${leaderCards}</div>
-          <button class="button board-toggle" type="button" id="board-toggle">See full board</button>
+          <button class="button board-toggle" type="button" id="board-toggle" aria-expanded="false">See full board</button>
         </div>
       </div>
     </section>
@@ -264,13 +266,25 @@ filterButtons.forEach((button) => {
 });
 
 const boardToggle = document.querySelector<HTMLButtonElement>("#board-toggle");
-const extraLeaders = Array.from(document.querySelectorAll<HTMLElement>("[data-extra-leader]"));
+const leaderGrid = document.querySelector<HTMLElement>(".leader-grid");
+const extraLeaders = Array.from(document.querySelectorAll<HTMLElement>(".leader-card--extra"));
 
-boardToggle?.addEventListener("click", () => {
-  const isExpanded = boardToggle.dataset.expanded === "true";
-  extraLeaders.forEach((card) => {
-    card.hidden = isExpanded;
+const setBoardExpanded = (isExpanded: boolean) => {
+  leaderGrid?.classList.toggle("is-expanded", isExpanded);
+
+  if (!boardToggle) {
+    return;
+  }
+
+  boardToggle.setAttribute("aria-expanded", String(isExpanded));
+  boardToggle.textContent = isExpanded ? "Show less" : "See full board";
+};
+
+if (boardToggle && leaderGrid) {
+  boardToggle.hidden = extraLeaders.length === 0;
+  setBoardExpanded(false);
+
+  boardToggle.addEventListener("click", () => {
+    setBoardExpanded(!leaderGrid.classList.contains("is-expanded"));
   });
-  boardToggle.dataset.expanded = String(!isExpanded);
-  boardToggle.textContent = isExpanded ? "See full board" : "Show less";
-});
+}

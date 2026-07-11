@@ -19,7 +19,7 @@ Open the URL printed by Vite.
 - `../groupphoto.jpg`
 - `../code_Black_Shell_NoBG&border.png`
 - `../logo~mv2.png`
-- `/Users/peter/Documents/Code: Blacl/BlackFestWebsite.mov`
+- `/Users/peter/Documents/Code: Blacl/BlackFestWebsite.mov` converted to `public/assets/blackfest-website-recap.mp4`
 
 ## Launch Plan
 

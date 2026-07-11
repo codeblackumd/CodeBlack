@@ -421,6 +421,14 @@ h3 {
   flex-direction: column;
 }
 
+.leader-card--extra {
+  display: none;
+}
+
+.leader-grid.is-expanded .leader-card--extra {
+  display: flex;
+}
+
 .linkedin-link {
   display: inline-flex;
   align-items: center;
