@@ -183,7 +183,7 @@ app.innerHTML = `
 
     <section class="section blackfest">
       <div class="blackfest__media">
-        <video src="/assets/blackfest-recap.mp4" controls playsinline preload="metadata"></video>
+        <video src="/assets/blackfest-website-recap.mov" controls playsinline preload="metadata"></video>
       </div>
       <div>
         <p class="eyebrow">BlackFest</p>
@@ -191,8 +191,8 @@ app.innerHTML = `
         <p>
           BlackFest is Code: BLACK's end-of-year event and a high-energy moment
           for sponsors, members, alumni, and friends to connect beyond the
-          classroom. The current local asset library includes a finished recap
-          video plus raw BlackFest clips for future editing.
+          classroom. The current site uses the finished BlackFest website recap
+          video with raw BlackFest clips available for future edits.
         </p>
       </div>
     </section>

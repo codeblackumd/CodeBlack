@@ -19,7 +19,7 @@ Open `http://127.0.0.1:5174/` if using the running Codex preview server, or the 
 - `../groupphoto.jpg`
 - `../code_Black_Shell_NoBG&border.png`
 - `../logo~mv2.png`
-- `../my-video/out/BlackfestRecap.mp4`
+- `/Users/peter/Documents/Code: Blacl/BlackFestWebsite.mov`
 
 ## Launch Plan
 
