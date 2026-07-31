@@ -79,7 +79,7 @@ export const events: EventItem[] = [
       "A low-pressure social for new and returning members to reconnect, meet friends, and start the semester with the Code: BLACK community.",
   },
   {
-    title: "TTP Kickoff?",
+    title: "TTP Kickoff",
     date: "September 21st",
     time: "TBA",
     location: "UMD campus",
