@@ -174,9 +174,10 @@ app.innerHTML = `
       </div>
       <div class="event-controls" aria-label="Event filters">
         <button class="filter-button is-active" type="button" data-filter="All">All</button>
-        <button class="filter-button" type="button" data-filter="Featured">Featured</button>
-        <button class="filter-button" type="button" data-filter="Upcoming">Upcoming</button>
-        <button class="filter-button" type="button" data-filter="Recruiting">Recruiting</button>
+        <button class="filter-button" type="button" data-filter="Tabling Event">Tabling</button>
+        <button class="filter-button" type="button" data-filter="Corporate Event">Corporate</button>
+        <button class="filter-button" type="button" data-filter="Social Event">Social</button>
+        <button class="filter-button" type="button" data-filter="Professional Development">Professional Development</button>
       </div>
       <div class="event-grid">${eventCards}</div>
     </section>

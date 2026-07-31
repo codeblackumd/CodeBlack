@@ -1,4 +1,4 @@
-export type EventStatus = "Featured" | "Upcoming" | "Recruiting";
+export type EventStatus = "Tabling Event" | "Corporate Event" | "Social Event" | "Professional Development";
 
 export type EventItem = {
   title: string;
@@ -43,31 +43,49 @@ export const stats = [
 
 export const events: EventItem[] = [
   {
-    title: "Welcome Back Game Night",
-    date: "September 2026",
-    time: "Evening",
+    title: "FreshCon",
+    date: "August 29th",
+    time: "2:00PM-5:00PM",
     location: "UMD campus",
-    status: "Featured",
+    status: "Tabling Event",
     description:
-      "A low-pressure kickoff for new and returning members to meet the community, find friends, and learn what Code: BLACK is building this year.",
+      "Stop by the Code: BLACK table to meet the community, learn about upcoming events, and get connected before the semester gets moving.",
   },
   {
-    title: "Technical Interview Lab",
-    date: "Fall 2026",
-    time: "TBA",
-    location: "Iribe Center",
-    status: "Upcoming",
+    title: "Code: BLACK x Amazon BEN 2 in 1 Gen AI + Cloud Workshop",
+    date: "September 8th",
+    time: "6:00PM-8:00PM",
+    location: "UMD campus",
+    status: "Corporate Event",
     description:
-      "Hands-on LeetCode practice, mock interviews, and peer coaching for internship and full-time recruiting season.",
+      "A hands-on corporate workshop with Amazon BEN focused on generative AI, cloud fundamentals, and practical technical learning.",
   },
   {
-    title: "Sponsor Tech Talk",
-    date: "Fall 2026",
+    title: "First Look Fair",
+    date: "September 10th",
+    time: "10:00AM-3:00PM",
+    location: "UMD campus",
+    status: "Tabling Event",
+    description:
+      "Find Code: BLACK at the First Look Fair to meet board members, ask questions, and join the organization for the year.",
+  },
+  {
+    title: "Code: BLACK Welcome Back Social",
+    date: "September 15th",
     time: "TBA",
     location: "UMD campus",
-    status: "Recruiting",
+    status: "Social Event",
     description:
-      "A professional development session connecting members with engineers, recruiters, and early-career opportunities.",
+      "A low-pressure social for new and returning members to reconnect, meet friends, and start the semester with the Code: BLACK community.",
+  },
+  {
+    title: "TTP Kickoff?",
+    date: "September 21st",
+    time: "TBA",
+    location: "UMD campus",
+    status: "Professional Development",
+    description:
+      "A professional development kickoff for members preparing for technical programs, recruiting season, and career growth.",
   },
 ];
 
