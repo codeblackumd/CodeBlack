@@ -95,6 +95,7 @@ app.innerHTML = `
       <a href="#leadership">Leadership</a>
       <a href="#sponsors">Sponsors</a>
       <a href="#opportunities">Opportunities</a>
+      <a href="#connect">Connect</a>
     </nav>
   </header>
 
@@ -240,6 +241,29 @@ app.innerHTML = `
         <h2>Blog and opportunity feed.</h2>
       </div>
       <div class="post-grid">${postCards}</div>
+    </section>
+
+    <section class="section connect-section" id="connect">
+      <div class="section-heading">
+        <p class="eyebrow">Get Connected</p>
+        <h2>Join the channels where Code: BLACK moves.</h2>
+        <p>
+          Follow along for event drops, community updates, photos, and the
+          conversations that keep members plugged in between meetings.
+        </p>
+      </div>
+      <div class="connect-grid" aria-label="Code Black member links">
+        <a class="connect-card connect-card--instagram" href="https://www.instagram.com/codeblackumd/" target="_blank" rel="noreferrer">
+          <span>Instagram</span>
+          <strong>@codeblackumd</strong>
+          <small>Photos, event reminders, and campus updates</small>
+        </a>
+        <a class="connect-card connect-card--groupme" href="https://groupme.com/join_group/36226750/evC4oLi3" target="_blank" rel="noreferrer">
+          <span>GroupMe</span>
+          <strong>Join the member chat</strong>
+          <small>Ask questions, meet people, and stay in the loop</small>
+        </a>
+      </div>
     </section>
   </main>
 

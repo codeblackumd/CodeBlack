@@ -563,6 +563,66 @@ h3 {
   background: var(--paper);
 }
 
+.connect-section {
+  background: var(--red);
+  color: var(--white);
+}
+
+.connect-section .eyebrow {
+  color: #ffcf40;
+}
+
+.connect-section .section-heading > p:not(.eyebrow) {
+  max-width: 760px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.connect-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.connect-card {
+  display: grid;
+  min-height: 250px;
+  align-content: space-between;
+  gap: 24px;
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 0.2);
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.connect-card:hover {
+  background: rgba(17, 17, 17, 0.32);
+  transform: translateY(-3px);
+}
+
+.connect-card span {
+  color: #ffcf40;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.connect-card strong {
+  display: block;
+  font-size: clamp(2rem, 5vw, 4.3rem);
+  line-height: 0.98;
+}
+
+.connect-card small {
+  max-width: 420px;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -637,7 +697,8 @@ h3 {
   .programs,
   .event-grid,
   .sponsor-grid,
-  .post-grid {
+  .post-grid,
+  .connect-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -683,6 +744,10 @@ h3 {
     background: rgba(255, 250, 244, 0.68);
     font-size: 0.82rem;
     text-align: center;
+  }
+
+  .site-header nav a:last-child {
+    grid-column: 1 / -1;
   }
 
   .hero {
@@ -749,6 +814,7 @@ h3 {
   .event-grid,
   .sponsor-grid,
   .post-grid,
+  .connect-grid,
   .photo-grid {
     grid-template-columns: 1fr;
   }
@@ -813,8 +879,17 @@ h3 {
   .event-card,
   .leader-card,
   .sponsor-card,
-  .post-card {
+  .post-card,
+  .connect-card {
     padding: 20px;
+  }
+
+  .connect-card {
+    min-height: 210px;
+  }
+
+  .connect-card strong {
+    font-size: 2.25rem;
   }
 
   .event-card__meta {
