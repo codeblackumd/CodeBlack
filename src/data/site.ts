@@ -37,7 +37,7 @@ export type EventPhoto = {
 export const stats = [
   { value: "315+", label: "undergrad members" },
   { value: "1,160+", label: "members in network" },
-  { value: "25-30", label: "events each year" },
+  { value: "35-40", label: "events each year" },
   { value: "2017", label: "founded at UMD" },
 ];
 
