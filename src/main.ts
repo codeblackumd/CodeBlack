@@ -61,6 +61,24 @@ const sponsorCards = sponsorLevels
   )
   .join("");
 
+const currentSponsors = [
+  { name: "Jane Street", className: "jane-street", note: "Quant finance and technology" },
+  { name: "Visa", className: "visa", note: "Payments, product, and engineering" },
+  { name: "amazon", className: "amazon", note: "Cloud, AI, and technical workshops" },
+  { name: "EY", className: "ey", note: "Consulting, assurance, and technology" },
+];
+
+const currentSponsorCards = currentSponsors
+  .map(
+    (sponsor) => `
+      <article class="current-sponsor-card">
+        <div class="sponsor-logo sponsor-logo--${sponsor.className}" aria-label="${sponsor.name} logo">${sponsor.name}</div>
+        <p>${sponsor.note}</p>
+      </article>
+    `,
+  )
+  .join("");
+
 const postCards = posts
   .map(
     (post) => `
@@ -231,6 +249,13 @@ app.innerHTML = `
           support member development, and build long-term relationships with
           emerging technologists at the University of Maryland.
         </p>
+      </div>
+      <div class="current-sponsors" aria-label="Current Code Black sponsors">
+        <div>
+          <p class="eyebrow">Current Sponsors</p>
+          <h3>Organizations backing the Code: BLACK community.</h3>
+        </div>
+        <div class="current-sponsor-grid">${currentSponsorCards}</div>
       </div>
       <div class="sponsor-grid">${sponsorCards}</div>
     </section>

@@ -530,6 +530,111 @@ h3 {
   color: rgba(255, 255, 255, 0.72);
 }
 
+.current-sponsors {
+  display: grid;
+  gap: 24px;
+  margin-bottom: clamp(36px, 6vw, 72px);
+  padding-bottom: clamp(34px, 6vw, 66px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.current-sponsors h3 {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: var(--white);
+  font-size: clamp(1.8rem, 4vw, 3.4rem);
+  line-height: 1;
+}
+
+.current-sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(170px, 1fr));
+  gap: 14px;
+}
+
+.current-sponsor-card {
+  display: grid;
+  min-height: 210px;
+  align-content: space-between;
+  gap: 28px;
+  padding: clamp(22px, 3vw, 34px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04)),
+    rgba(255, 255, 255, 0.06);
+}
+
+.current-sponsor-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.sponsor-logo {
+  display: inline-flex;
+  align-items: center;
+  min-height: 78px;
+  color: var(--white);
+  letter-spacing: 0;
+  line-height: 0.9;
+}
+
+.sponsor-logo--jane-street {
+  font-size: clamp(2.05rem, 4vw, 3.2rem);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sponsor-logo--visa {
+  color: #f7b600;
+  font-size: clamp(3rem, 6vw, 4.9rem);
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sponsor-logo--amazon {
+  position: relative;
+  align-items: flex-start;
+  padding-bottom: 22px;
+  font-size: clamp(2.7rem, 5vw, 4.4rem);
+  font-weight: 800;
+  text-transform: lowercase;
+}
+
+.sponsor-logo--amazon::after {
+  content: "";
+  position: absolute;
+  left: 28%;
+  bottom: 0;
+  width: 48%;
+  height: 18px;
+  border-bottom: 6px solid #ff9900;
+  border-radius: 0 0 999px 999px;
+  transform: rotate(-8deg);
+}
+
+.sponsor-logo--ey {
+  position: relative;
+  align-items: flex-end;
+  color: var(--white);
+  font-size: clamp(3.5rem, 7vw, 5.8rem);
+  font-weight: 900;
+}
+
+.sponsor-logo--ey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 82px;
+  height: 12px;
+  background: #ffcf40;
+  transform: skewX(-28deg);
+}
+
 .sponsor-card {
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
@@ -696,6 +801,7 @@ h3 {
   .stat-strip,
   .programs,
   .event-grid,
+  .current-sponsor-grid,
   .sponsor-grid,
   .post-grid,
   .connect-grid {
@@ -812,6 +918,7 @@ h3 {
   .stat-strip,
   .programs,
   .event-grid,
+  .current-sponsor-grid,
   .sponsor-grid,
   .post-grid,
   .connect-grid,
@@ -878,6 +985,7 @@ h3 {
 
   .event-card,
   .leader-card,
+  .current-sponsor-card,
   .sponsor-card,
   .post-card,
   .connect-card {
@@ -959,6 +1067,14 @@ h3 {
   .sponsor-card div {
     display: grid;
     gap: 8px;
+  }
+
+  .current-sponsors h3 {
+    font-size: 2rem;
+  }
+
+  .current-sponsor-card {
+    min-height: 176px;
   }
 
   .sponsor-card strong {
