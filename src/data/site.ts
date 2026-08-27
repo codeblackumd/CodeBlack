@@ -52,13 +52,13 @@ export const events: EventItem[] = [
       "Stop by the Code: BLACK table to meet the community, learn about upcoming events, and get connected before the semester gets moving.",
   },
   {
-    title: "Code: BLACK x Amazon BEN 2 in 1 Gen AI + Cloud Workshop",
+    title: "Code: BLACK Welcome Back Social",
     date: "September 8th",
-    time: "6:00PM-8:00PM",
+    time: "TBA",
     location: "UMD campus",
-    status: "Corporate Event",
+    status: "Social Event",
     description:
-      "A hands-on corporate workshop with Amazon BEN focused on generative AI, cloud fundamentals, and practical technical learning.",
+      "A low-pressure social for new and returning members to reconnect, meet friends, and start the semester with the Code: BLACK community.",
   },
   {
     title: "First Look Fair",
@@ -70,13 +70,13 @@ export const events: EventItem[] = [
       "Find Code: BLACK at the First Look Fair to meet board members, ask questions, and join the organization for the year.",
   },
   {
-    title: "Code: BLACK Welcome Back Social",
-    date: "September 15th",
+    title: "Code: BLACK x Bloomberg Technical Workshop",
+    date: "September 18th",
     time: "TBA",
     location: "UMD campus",
-    status: "Social Event",
+    status: "Corporate Event",
     description:
-      "A low-pressure social for new and returning members to reconnect, meet friends, and start the semester with the Code: BLACK community.",
+      "A corporate technical workshop with Bloomberg focused on practical engineering skills, career insight, and member development.",
   },
   {
     title: "TTP Kickoff",
@@ -86,6 +86,15 @@ export const events: EventItem[] = [
     status: "Professional Development",
     description:
       "A professional development kickoff for members preparing for technical programs, recruiting season, and career growth.",
+  },
+  {
+    title: "Code: BLACK x Amazon BEN 2 in 1 Gen AI + Cloud Workshop",
+    date: "October 6th",
+    time: "6:00PM-8:00PM",
+    location: "UMD campus",
+    status: "Corporate Event",
+    description:
+      "A hands-on corporate workshop with Amazon BEN focused on generative AI, cloud fundamentals, and practical technical learning.",
   },
 ];
 
