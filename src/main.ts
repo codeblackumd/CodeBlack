@@ -62,17 +62,35 @@ const sponsorCards = sponsorLevels
   .join("");
 
 const currentSponsors = [
-  { name: "Jane Street", className: "jane-street", note: "Quant finance and technology" },
-  { name: "Visa", className: "visa", note: "Payments, product, and engineering" },
-  { name: "amazon", className: "amazon", note: "Cloud, AI, and technical workshops" },
-  { name: "EY", className: "ey", note: "Consulting, assurance, and technology" },
+  {
+    name: "Jane Street",
+    logo: "/assets/sponsors/jane-street.svg",
+    note: "Quant finance and technology",
+  },
+  {
+    name: "Visa",
+    logo: "/assets/sponsors/visa.svg",
+    note: "Payments, product, and engineering",
+  },
+  {
+    name: "Amazon",
+    logo: "/assets/sponsors/amazon.svg",
+    note: "Cloud, AI, and technical workshops",
+  },
+  {
+    name: "EY",
+    logo: "/assets/sponsors/ey.svg",
+    note: "Consulting, assurance, and technology",
+  },
 ];
 
 const currentSponsorCards = currentSponsors
   .map(
     (sponsor) => `
       <article class="current-sponsor-card">
-        <div class="sponsor-logo sponsor-logo--${sponsor.className}" aria-label="${sponsor.name} logo">${sponsor.name}</div>
+        <div class="sponsor-logo-plate">
+          <img src="${sponsor.logo}" alt="${sponsor.name} logo" loading="lazy" />
+        </div>
         <p>${sponsor.note}</p>
       </article>
     `,
