@@ -134,27 +134,7 @@ export const leaders: Leader[] = [
       "Senior Computer Science major focused on software engineering, with interests in basketball, public service, and movies.",
     linkedin: "https://www.linkedin.com/in/emmanuel-mm/",
   },
-  {
-    name: "Daniel Odetoye",
-    role: "Treasurer",
-    focus:
-      "Junior Computer Science major interested in software development, UI/UX design, photography, basketball, and games.",
-    linkedin: "https://www.linkedin.com/in/danielodetoye/",
-  },
-  {
-    name: "Eniola Aloba",
-    role: "Co-Event Coordinator",
-    focus:
-      "Sophomore Computer Science major exploring software in fintech, with interests in arts and crafts, crocheting, and cooking.",
-    linkedin: "https://www.linkedin.com/in/eniolaloba/",
-  },
-  {
-    name: "Audrey Nguezet Gouanet",
-    role: "Co-Event Coordinator",
-    focus:
-      "Junior pursuing software engineering and AI, with interests in dancing, working out, and reading.",
-    linkedin: "https://www.linkedin.com/in/audrey-nguezet-gouanet",
-  },
+
   {
     name: "Oluwatoyin Olaniyi",
     role: "Secretary",
@@ -162,6 +142,49 @@ export const leaders: Leader[] = [
       "Sophomore Computer Science major and brand owner exploring the intersection of technology, business, and finance.",
     linkedin: "https://www.linkedin.com/in/oluwatoyin-olaniyi/",
   },
+
+  {
+    name: "Eniola Aloba",
+    role: "Co-Event Coordinator",
+    focus:
+      "Sophomore Computer Science major exploring software in fintech, with interests in arts and crafts, crocheting, and cooking.",
+    linkedin: "https://www.linkedin.com/in/eniolaloba/",
+  },
+
+  {
+    name: "Daniel Odetoye",
+    role: "Treasurer",
+    focus:
+      "Junior Computer Science major interested in software development, UI/UX design, photography, basketball, and games.",
+    linkedin: "https://www.linkedin.com/in/danielodetoye/",
+  },
+
+  {
+    name: "Emmanuel Adedeji",
+    role: "Co-Professional Development Coordinator",
+    focus:
+      "Senior pursuing software engineering, with interests in soccer and drumming.",
+    linkedin: "https://www.linkedin.com/in/e-adedeji/",
+  },
+  
+   {
+    name: "Duke Boateng",
+    role: "Co-Professional Development Coordinator",
+    focus:
+      "Sophomore pursuing software engineering and product management, with interests in sports and traveling.",
+    linkedin: "https://www.linkedin.com/in/duke-boateng",
+  },
+
+
+  
+  {
+    name: "Audrey Nguezet Gouanet",
+    role: "Co-Event Coordinator",
+    focus:
+      "Junior pursuing software engineering and AI, with interests in dancing, working out, and reading.",
+    linkedin: "https://www.linkedin.com/in/audrey-nguezet-gouanet",
+  },
+  
   {
     name: "Omotayo Alle",
     role: "Corporate Outreach Coordinator",
@@ -225,20 +248,7 @@ export const leaders: Leader[] = [
       "Senior interested in product management, tech consulting, solutions architecture, and data analysis, with interests in sports, TV, and parlays.",
     linkedin: "https://www.linkedin.com/in/jason-chid-christopher/",
   },
-  {
-    name: "Duke Boateng",
-    role: "Co-Professional Development Coordinator",
-    focus:
-      "Sophomore pursuing software engineering and product management, with interests in sports and traveling.",
-    linkedin: "https://www.linkedin.com/in/duke-boateng",
-  },
-  {
-    name: "Emmanuel Adedeji",
-    role: "Co-Professional Development Coordinator",
-    focus:
-      "Senior pursuing software engineering, with interests in soccer and drumming.",
-    linkedin: "https://www.linkedin.com/in/e-adedeji/",
-  },
+ 
 ];
 
 export const eventPhotos: EventPhoto[] = [
