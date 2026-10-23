@@ -121,116 +121,123 @@ export const posts: PostItem[] = [
 
 export const leaders: Leader[] = [
   {
-    name: "Prince Aguguo",
-    role: "Co-President",
-    focus:
-      "Senior Computer Science major pursuing software engineering, with interests in music manipulation, basketball, and running.",
-    linkedin: "https://www.linkedin.com/in/princeobiuto-aguguo/",
-  },
-  {
     name: "Peter Njoroge",
-    role: "Co-President",
+    role: "President",
     focus:
-      "Junior Computer Science major interested in full-stack software engineering, sports, the gym, and music.",
+      "Senior Computer Science major interested in full-stack software engineering, sports, the gym, and music.",
     linkedin: "https://www.linkedin.com/in/peter-njoroge13/",
   },
   {
-    name: "Ayomiposi Ajayi",
+    name: "Emmanuel Michael",
     role: "Vice President",
     focus:
-      "Senior Computer Science major focused on software engineering with an ML/AI lens, plus flute, journaling, design, and crafting.",
-    linkedin: "https://www.linkedin.com/in/ayomiposi-ajayi/",
-  },
-  {
-    name: "Ann-Audrey Ezi",
-    role: "Secretary",
-    focus:
-      "Senior Computer Engineering major with a Korean Studies minor pursuing embedded systems engineering.",
-    linkedin: "http://www.linkedin.com/in/ann-audrey-ezi",
-  },
-  {
-    name: "Felix Ogordi",
-    role: "Treasurer",
-    focus:
-      "Senior Computer Science major interested in innovation in tech, fitness, shows, and music.",
-    linkedin: "https://www.linkedin.com/in/ogordi-felix/",
-  },
-  {
-    name: "Maurice Barksdale",
-    role: "Corporate Outreach Coordinator",
-    focus:
-      "Senior Computer Science major interested in software engineering, machine learning, startups, movies, anime, and photography.",
-    linkedin: "https://www.linkedin.com/in/maurice-barksdale/",
-  },
-  {
-    name: "Jincy Njenga",
-    role: "Co-Mentorship Program Coordinator",
-    focus:
-      "Senior Information Science major pursuing data analysis, with interests in reading, museums, and new activities.",
-    linkedin: "https://www.linkedin.com/in/jincynjenga/",
-  },
-  {
-    name: "Ruba Ibrahim",
-    role: "Co-Mentorship Program Coordinator",
-    focus:
-      "Senior Information Science major focused on data analysis and using insights to drive positive social change.",
-    linkedin: "https://www.linkedin.com/in/rubaibrahim0/",
+      "Senior Computer Science major focused on software engineering, with interests in basketball, public service, and movies.",
+    linkedin: "https://www.linkedin.com/in/emmanuel-mm/",
   },
   {
     name: "Daniel Odetoye",
-    role: "Co-Event Coordinator",
+    role: "Treasurer",
     focus:
       "Junior Computer Science major interested in software development, UI/UX design, photography, basketball, and games.",
     linkedin: "https://www.linkedin.com/in/danielodetoye/",
   },
   {
-    name: "Emmanuel Michael",
-    role: "Co-Event Coordinator",
-    focus:
-      "Senior Computer Science major with a General Business minor pursuing software engineering and cybersecurity.",
-    linkedin: "https://www.linkedin.com/in/emmanuel-m-michael/",
-  },
-  {
-    name: "Kaelyn Naih",
-    role: "Co-Graphic Designer",
-    focus:
-      "Sophomore Information Science major pursuing data analysis, with interests in dance, graphic design, and travel.",
-    linkedin: "https://www.linkedin.com/in/kaelyn-naih-5a8bb2338/",
-  },
-  {
-    name: "Hannah Williams",
-    role: "Co-Graphic Designer",
-    focus:
-      "Senior pursuing Psychology and Information Science with interests in marketing data analysis and UI/UX design.",
-    linkedin: "https://www.linkedin.com/in/hannah-williams-88a25b267/",
-  },
-  {
-    name: "Emmanuel Adedeji",
-    role: "Professional Development Coordinator",
-    focus:
-      "Professional development lead supporting member career growth, opportunity sharing, and recruiting readiness.",
-    linkedin: "https://www.linkedin.com/in/e-adedeji/",
-  },
-  {
     name: "Eniola Aloba",
-    role: "Program Coordinator",
+    role: "Co-Event Coordinator",
     focus:
       "Sophomore Computer Science major exploring software in fintech, with interests in arts and crafts, crocheting, and cooking.",
     linkedin: "https://www.linkedin.com/in/eniolaloba/",
   },
   {
-    name: "Toyin Olaniyi",
-    role: "Social Media Coordinator",
+    name: "Audrey Nguezet Gouanet",
+    role: "Co-Event Coordinator",
     focus:
-      "Sophomore Computer Science major and brand owner exploring the intersection of technology, business, and finance.",
-    linkedin: "https://www.linkedin.com/in/toyin-olaniyi-52378b27a/",
+      "Junior pursuing software engineering and AI, with interests in dancing, working out, and reading.",
+    linkedin: "https://www.linkedin.com/in/audrey-nguezet-gouanet",
   },
   {
-    name: "Lynnet Opara",
+    name: "Oluwatoyin Olaniyi",
+    role: "Secretary",
+    focus:
+      "Sophomore Computer Science major and brand owner exploring the intersection of technology, business, and finance.",
+    linkedin: "https://www.linkedin.com/in/oluwatoyin-olaniyi/",
+  },
+  {
+    name: "Omotayo Alle",
+    role: "Corporate Outreach Coordinator",
+    focus:
+      "Senior pursuing product management, with interests in pool, basketball, soccer, and dancing.",
+    linkedin: "https://www.linkedin.com/in/omotayo-alle/",
+  },
+  {
+    name: "Kaelyn Naih",
+    role: "Co-Graphic Designer",
+    focus:
+      "Junior pursuing software development, with interests in traveling, graphic design, and dance.",
+    linkedin: "https://www.linkedin.com/in/kaelyn-naih-5a8bb2338",
+  },
+  {
+    name: "Nzinga Philbert",
+    role: "Co-Graphic Designer",
+    focus:
+      "Junior pursuing cybersecurity, with interests in dancing, drawing, the gym, and TV shows.",
+    linkedin: "https://www.linkedin.com/in/nzinga-philbert",
+  },
+  {
+    name: "Gabrielle Annan",
+    role: "Social Media Coordinator",
+    focus:
+      "Sophomore pursuing cybersecurity and data analytics, with interests in photography and building Lego sets.",
+    linkedin: "https://www.linkedin.com/in/gabrielle-annan",
+  },
+  {
+    name: "Victor Olatunji",
     role: "Historian",
     focus:
-      "Senior double majoring in Social Data Science and Public Health with a Spanish Language and Literature minor.",
-    linkedin: "https://www.linkedin.com/in/lynnet-opara/",
+      "Sophomore pursuing software engineering, with interests in football, sports, and the gym.",
+    linkedin: "https://www.linkedin.com/in/victor-olatunji-914320345/",
+  },
+  {
+    name: "Promise Adekusibe",
+    role: "Co-Programming Coordinator",
+    focus:
+      "Sophomore pursuing software engineering and data analytics, with interests in modeling, weightlifting, drumming, cooking, running, Bible studies, music, and content creation.",
+    linkedin: "https://www.linkedin.com/in/promise-adekusibe",
+  },
+  {
+    name: "Maia K. Bell",
+    role: "Co-Programming Coordinator",
+    focus:
+      "Junior pursuing cybersecurity, with interests in lifting weights, yoga, and anime.",
+    linkedin: "https://www.linkedin.com/in/maiakbell",
+  },
+  {
+    name: "Grace Audu",
+    role: "Co-Mentorship Coordinator",
+    focus:
+      "Sophomore pursuing machine learning, with interests in softball, guitar, and sewing.",
+    linkedin: "https://www.linkedin.com/in/graceaudu",
+  },
+  {
+    name: "Jason Christopher",
+    role: "Co-Mentorship Coordinator",
+    focus:
+      "Senior interested in product management, tech consulting, solutions architecture, and data analysis, with interests in sports, TV, and parlays.",
+    linkedin: "https://www.linkedin.com/in/jason-chid-christopher/",
+  },
+  {
+    name: "Duke Boateng",
+    role: "Co-Professional Development Coordinator",
+    focus:
+      "Sophomore pursuing software engineering and product management, with interests in sports and traveling.",
+    linkedin: "https://www.linkedin.com/in/duke-boateng",
+  },
+  {
+    name: "Emmanuel Adedeji",
+    role: "Co-Professional Development Coordinator",
+    focus:
+      "Senior pursuing software engineering, with interests in soccer and drumming.",
+    linkedin: "https://www.linkedin.com/in/e-adedeji/",
   },
 ];
 
